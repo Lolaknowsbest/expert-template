@@ -1,0 +1,57 @@
+@mixin for-size($size) {
+    @if $size == phone-only {
+      @media (max-width: 599px) { @content; }
+    } @else if $size == tablet-portrait-up {
+      @media (min-width: 600px) and (max-width: 899px) { @content; }
+    } @else if $size == tablet-landscape-up {
+      @media (min-width: 900px) and (max-width: 1199px) { @content; }
+    } @else if $size == desktop-up {
+      @media (min-width: 1200px) and (max-width: 1799px) { @content; }
+    } @else if $size == big-desktop-up {
+      @media (min-width: 1800px) { @content; }
+    }
+  }
+  
+
+.testimonials {
+    background-color: #DBA97D;
+    padding: 3rem 0rem;
+    text-align: center;
+    width: 100%;
+}
+
+.testimonials {
+    h3{
+        font-family: 'Comfortaa', cursive;
+        color: #FFF3F3;
+        margin: -1rem 0rem;
+        
+    }
+    
+}
+
+
+.gridBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    }
+
+.gridCard{
+    display: flex;
+    padding: 0.125rem 1rem;
+    
+        
+    }
+    
+    
+    
+figcaption{
+   background-color: #FFF3F3 ;
+   width: 100%;
+   padding: 1rem 1.2rem;
+   border-radius: 0.5rem;
+   box-shadow: 10px 10px 5px grey;
+}
