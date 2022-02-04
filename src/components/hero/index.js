@@ -24,7 +24,7 @@ function Hero() {
                              <button className={styles.button} >BOOK APPOINTMENT</button>
                              </a> 
                         </div> <br /> <br />
-                        <h3> Visit us today at 321 Best Street in Toronto!</h3>
+                        <h3> OUR LOCATION: 321 Best Street, <br/> Redwood, ON L1G 2K8</h3>
                 </section>
             </div>
         </div>
