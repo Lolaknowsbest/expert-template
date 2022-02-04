@@ -15,7 +15,7 @@ function Hero() {
                 <section className={styles.heroText} >
                     <h2>TRIBECA EYECARE CLINIC </h2> <br/>
                     <p> We specialize in treating cornea and eye cataract diseases
-                    </p>
+                    </p> <br />
                         <div className={styles.hire}>
                         
                             <button className={`${styles.button} ${styles.mobile}`} >PATIENT PORTAL</button>
@@ -23,7 +23,8 @@ function Hero() {
                          <a href="" download=""> 
                              <button className={styles.button} >BOOK APPOINTMENT</button>
                              </a> 
-                        </div>
+                        </div> <br /> <br />
+                        <h3> Visit us today at 321 Best Street in Toronto!</h3>
                 </section>
             </div>
         </div>

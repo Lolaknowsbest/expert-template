@@ -1,0 +1,83 @@
+@mixin for-size($size) {
+    @if $size == phone-only {
+      @media (max-width: 599px) { @content; }
+    } @else if $size == tablet-portrait-up {
+      @media (min-width: 600px) and (max-width: 899px) { @content; }
+    } @else if $size == tablet-landscape-up {
+      @media (min-width: 900px) and (max-width: 1199px) { @content; }
+    } @else if $size == desktop-up {
+      @media (min-width: 1200px) and (max-width: 1799px) { @content; }
+    } @else if $size == big-desktop-up {
+      @media (min-width: 1800px) { @content; }
+    }
+  }
+  
+.projects{
+    background-color:#f7cca1 ;
+    width: 100%;
+
+}
+.filterMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filterBox {
+  background-color: #CC3B7A;
+  border: none;
+  border-radius: 0.25rem ;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.5rem;
+  font-family: 'Comfortaa', cursive;
+  margin: 0.1rem 0.1rem;
+  cursor: pointer;
+}
+.projects{
+    h3{
+        font-family: 'Comfortaa', cursive;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 0.3rem;
+    }
+}
+.projectcard{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+     margin-right: 4rem;
+   
+    margin-bottom: 6rem;
+}
+
+.filterDiv{
+  color: #ffffff;
+  width: 12rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem 2rem;
+
+  img:hover {
+    filter: none;
+    -webkit-filter: grayscale(80%);
+    cursor: pointer;
+  }
+  p { 
+    font-family: 'Comfortaa', cursive;
+    color: black;
+  }
+}
+
+
+
+
+/* 
+The "show" classname is added to the filtered elements 
+.show{ 
+    display: block;
+}
+*/

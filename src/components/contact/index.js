@@ -9,7 +9,7 @@ function Contact() {
                 <h1>CONTACT US</h1>
             </div>
             <div className={ContactStyle.contactInfo}>
-                <p><strong>Location: </strong>123 ABC Street</p>
+                <p><strong>Location: </strong>321 Best Street</p>
                 <p><strong>Phone Number: </strong>123-456-7890</p>
                 <p><strong>Fax Number: </strong>098-765-4321</p>
             </div>
