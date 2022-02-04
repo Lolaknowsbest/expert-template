@@ -3,16 +3,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import {HashLink} from "react-router-hash-link";
 import classes from "./header.module.scss";
+import logo from "../../assets/logo.jpg";
 
 function Header() {
     return (
     
         <header className={classes.header}> 
-        <div> 
-            
-         <h1 className={classes.h1}>DR. ANUJ BHARGAVA</h1>
-             
-        </div>
+        <section> 
+             <img src={logo} className={classes.logos}/>
+        </section>
         <nav className={classes.nav} >  
 
            <ul>
@@ -20,13 +19,14 @@ function Header() {
                 SERVICES
             </li>
             <li>
-                TESTIMONIALS
+                MEET OUR STAFF
+            </li>
+            <li>
+                CONTACT US
             </li>
           </ul>
               
-            <button className={classes.button}>
-               MEET OUR STAFF
-            </button>
+        
             
         </nav>     
          </header>
