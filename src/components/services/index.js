@@ -13,7 +13,7 @@ function Services() {
            <section>
                <h3>SERVICES</h3>
                </section>
-            <div className={styles.projectcard}>
+            <section className={styles.projectcard}>
                 <div className={styles.filterDiv}>
                     <img src={cataract} />
                     <p>CATARACT SURGERY</p>
@@ -31,7 +31,7 @@ function Services() {
                     <p>VISION CONSULT</p>
                     </div>
                
-            </div>
+            </section>
             
         </div>
     )
