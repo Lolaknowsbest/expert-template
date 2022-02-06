@@ -60,6 +60,7 @@
 
   img {
     width: 100%;
+    border-radius: 5px 5px 0 0;
   }
 
   img:hover {
@@ -67,12 +68,26 @@
     -webkit-filter: grayscale(80%);
     cursor: pointer;
   }
-  p { 
+  article{
+    background-color: #ffffff;
+    padding: 0.5rem 0.5rem;
+    margin-top: -5px;
+  }
+  h4 { 
     font-family: 'Comfortaa', cursive;
+    color: black;
+    font-weight: bold;
     @include for-size (phone-only) {
       font-size: 0.7rem;
     }
     
+  }
+  p{
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    @include for-size (phone-only) {
+      font-size: 0.7rem;
+    }
   }
 }
 
