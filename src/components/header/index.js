@@ -19,10 +19,13 @@ function Header() {
                 SERVICES
             </li>
             <li>
-                MEET OUR STAFF
+                 DOCTORS
             </li>
             <li>
-                CONTACT US
+                CONTACT 
+            </li>
+            <li>
+                 HOURS
             </li>
           </ul>
               
