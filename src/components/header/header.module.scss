@@ -15,7 +15,7 @@
  
  .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
    
     padding-right: 1.5rem;
     position: fixed;
@@ -23,7 +23,7 @@
     width: 100%;
     top: 0%;
     z-index: 2;
-    background-color: #DBA97D;
+    background-color: #45AD93;
     
     section{
       margin: 0;
@@ -31,6 +31,7 @@
  }
  .logos{
    height: 100%;
+  
    @include for-size (phone-only) {
     margin: 0;
  }

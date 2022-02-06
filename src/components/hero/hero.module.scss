@@ -15,7 +15,7 @@
   
   .heroBox{
       padding: 3rem;
-      background-color: #DBA97D ;
+      background-color: white ;
       width: 100%;
       text-align: center;
   }
@@ -40,14 +40,14 @@
       margin: 1rem;
     }
     h2{
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-family: 'Roboto', sans-serif;
       padding-top: -3rem;
       @include for-size (phone-only) {
         font-size: 0.8rem;
       }
       @include for-size (tablet-portrait-up) {
-        font-size: 1.7rem;
+        font-size: 1rem;
       }
     }
     p{
@@ -70,14 +70,16 @@
       font-size: 1rem;
       font-weight: bold;
       @include for-size (phone-only) {
+        font-size: 0.7rem;
+      }
+      @include for-size (tablet-portrait-up) {
         font-size: 0.8rem;
-        
       }
     }
   }
   
   .button{ 
-    background-color: #3582C4;
+    background-color: #7292DB;
     border: none;
     border-radius: 0.25rem ;
     color: white;
@@ -91,6 +93,9 @@
     @include for-size (phone-only) {
       font-size: 0.6rem;
       
+    }
+    @include for-size (tablet-portrait-up) {
+      font-size: 0.5rem;
     }
   }
   
@@ -129,14 +134,4 @@
       color:#f7cca1;
      
     }
-    
-    @keyframes wave-animation {
-        0% { transform: rotate( 0.0deg) }
-       10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-       20% { transform: rotate(-8.0deg) }
-       30% { transform: rotate(14.0deg) }
-       40% { transform: rotate(-4.0deg) }
-       50% { transform: rotate(10.0deg) }
-       60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-      100% { transform: rotate( 0.0deg) }
-    }
+   
