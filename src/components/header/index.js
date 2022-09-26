@@ -1,7 +1,5 @@
 
 import React from "react";
-import ReactDOM from "react-dom";
-import {HashLink} from "react-router-hash-link";
 import classes from "./header.module.scss";
 import logo from "../../assets/logo.jpg";
 
@@ -10,7 +8,7 @@ function Header() {
     
         <header className={classes.header}> 
         <section> 
-             <img src={logo} className={classes.logos}/>
+             <img src={logo} className={classes.logos} alt='business logo' />
         </section>
         <nav className={classes.nav} >  
 

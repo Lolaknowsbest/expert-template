@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import styles from "./hero.module.scss";
 import Crawford from "../../assets/Crawford.jpg";
 
@@ -10,7 +9,7 @@ function Hero() {
             <div className={styles.heroCard} >
 
                 <section className={styles.imageBox} >
-                <img src={Crawford} className={styles.heroImage} />
+                <img src={Crawford} className={styles.heroImage} alt='Dr Crawford' />
                 <h2>Dr Crawford (MD, FRCSC)</h2>
                 </section>
 
@@ -22,7 +21,7 @@ function Hero() {
                         
                             <button className={`${styles.button} ${styles.mobile}`} >PATIENT PORTAL</button>
                          
-                         <a href="" download=""> 
+                         <a  download=""> 
                              <button className={styles.button} >BOOK APPOINTMENT</button>
                              </a> 
                         </div> <br /> 

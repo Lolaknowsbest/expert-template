@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import styles from "./staff.module.scss";
 import rahim from "../../assets/rahim.jpg";
 import rogers from "../../assets/rogers.jpg";
@@ -15,19 +14,19 @@ function Staff() {
                </section>
             <div className={styles.projectcard}>
                 <div className={styles.filterDiv}>
-                    <img src={rahim} />
+                    <img src={rahim} alt='Dr Rahim' />
                     <p>DR RAHIM (MD, MPH)</p>
                 </div>
                 <div className={styles.filterDiv }>
-                    <img src={rogers} />
+                    <img src={rogers} alt='Dr Rogers' />
                     <p>DR ROGERS (MD, FRCSC)</p>
                     </div>
                 <div className={styles.filterDiv}>
-                    <img src={crawford2} />
+                    <img src={crawford2} alt='Dr Crawford' />
                     <p>DR CRAWFORD (MD, FRCSC)</p>
                     </div>
                 <div className={styles.filterDiv}>
-                    <img src={beverly} />
+                    <img src={beverly} alt='Dr Beverly' />
                     <p>DR BEVERLY (MD, FRCSC) </p>
                     </div>
                

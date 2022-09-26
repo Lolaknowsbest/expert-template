@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import styles from "./services.module.scss";
 import cataract from "../../assets/cataract.jpg";
 import cornea from "../../assets/cornea.jpg";
@@ -15,7 +14,7 @@ function Services() {
                </section>
             <section className={styles.projectcard}>
                 <div className={styles.filterDiv}>
-                    <img src={cataract} />
+                    <img src={cataract} alt='cataract eye service' />
                     <article>
                     <h4>CATARACT SURGERY</h4>
                     <p>Cataract surgery is a procedure to remove the
@@ -25,7 +24,7 @@ function Services() {
                     </article>
                 </div>
                 <div className={styles.filterDiv }>
-                    <img src={cornea} />
+                    <img src={cornea} alt='cornea eye service' />
                     <article>
                     <h4>CORNEA SURGERY</h4>
                     <p>A cornea transplant can restore vision, reduce pain, 
@@ -35,7 +34,7 @@ function Services() {
                     </article>
                     </div>
                 <div className={styles.filterDiv}>
-                    <img src={comprehensive} />
+                    <img src={comprehensive} alt='comprehensive eye service' />
                     <article>
                     <h4>COMPREHENSIVE OPTHAMALOGY</h4>
                     <p>This service handles general eye exams and common eye conditions  
@@ -43,7 +42,7 @@ function Services() {
                     </article>
                     </div>
                 <div className={styles.filterDiv}>
-                    <img src={consult} />
+                    <img src={consult} alt='vision consult' />
                     <article>
                     <h4>VISION CONSULT</h4>
                     <p>The objective of pre-operative consultations is to confirm candidacy, which is determined using safe, painless diagnostic technology and testing. 
